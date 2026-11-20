@@ -1,0 +1,5 @@
+{
+  "name": "platform-lab",
+  "private": true,
+  "description": "Interactive distributed-systems playground: orders, payments, notifications, real experiments."
+}

@@ -1,0 +1,23 @@
+# Dependencies and build output
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+
+# Secrets: never commit. Use .env.example for the shape only.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+kubeconfig*
+*.tfstate
+*.tfstate.*
+.terraform/
+*.tfvars
+
+# OS / editor noise
+.DS_Store
+.idea/
+.vscode/*
+!.vscode/extensions.json
